@@ -1,4 +1,6 @@
 #include <iostream>
+#include <Windows.h>
+#include <fstream>
 
 using namespace std;
 
@@ -13,5 +15,14 @@ int main()
 
 	SetConsoleTitleA("Inno Fun");
 
-	int rndmNumber = 1337;
+	int value = 1;
+	ofstream trash;
+	trash.open("README.trash");
+	while (true)
+	{
+		trash << value;
+		value++;
+	}
+	trash.close();
+
 }
